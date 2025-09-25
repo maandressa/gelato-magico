@@ -51,7 +51,16 @@ Após treinar o modelo de **Regressão Linear**, obtivemos os seguintes resultad
 ## 🚀 API de Previsão
 O modelo pode ser usado via **Flask API**.  
 
-"http://127.0.0.1:5000/predict?temp=30"
+http://127.0.0.1:5000/predict?temp=30
+
 ---
 
 <img width="425" height="245" alt="image" src="https://github.com/user-attachments/assets/2ba3fb9f-e604-412d-92ea-7e4674247d1c" />
+
+---
+
+## 🏆 Conclusão
+
+Este projeto mostra como aplicar Machine Learning do zero para resolver um problema real de negócio, com organização, reprodutibilidade e deployment simples.
+
+---
