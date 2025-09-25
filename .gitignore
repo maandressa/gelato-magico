@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+mlruns/
+models/
+data/icecream_sales.csv
+.env
