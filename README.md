@@ -22,24 +22,24 @@ Para resolver isso, aplicamos **Machine Learning** para prever quantos sorvetes 
 
 ## 🛠️ Estrutura do Projeto
 gelato-magico/
-│-- data/ # Scripts e dados
-│ └── generate_data.py
-│-- inputs/ # Arquivos de entrada (texto)
-│ └── sentences.txt
-│-- models/ # Modelos treinados (joblib)
-│-- src/ # Código principal
-│ ├── train.py # Treino e logging do modelo
-│ └── serve.py # API para servir previsões
-│-- requirements.txt # Dependências do projeto
-│-- README.md # Documentação
+-│-- data/ # Scripts e dados
+-│ └── generate_data.py
+-│-- inputs/ # Arquivos de entrada (texto)
+-│ └── sentences.txt
+-│-- models/ # Modelos treinados (joblib)
+-│-- src/ # Código principal
+-│ ├── train.py # Treino e logging do modelo
+-│ └── serve.py # API para servir previsões
+-│-- requirements.txt # Dependências do projeto
+-│-- README.md # Documentação
 
 ---
 
 ## 📊 Resultados do Modelo
 Após treinar o modelo de **Regressão Linear**, obtivemos os seguintes resultados:
 
-- **R² (Coeficiente de Determinação):** `0.97` (indica boa explicação da variação das vendas)
-- **RMSE (Raiz do Erro Quadrático Médio):** `19.85` (erro médio em torno de 20 unidades de sorvete)
+- **R² (Coeficiente de Determinação):** `0.94` (indica boa explicação da variação das vendas)
+- **RMSE (Raiz do Erro Quadrático Médio):** `21,00` (erro médio em torno de 20 unidades de sorvete)
 
 <img width="440" height="91" alt="image" src="https://github.com/user-attachments/assets/0f83d9c5-f40b-4d6c-a4a9-fc7eb2fd6c85" />
 
@@ -53,6 +53,7 @@ O modelo pode ser usado via **Flask API**.
 ```bash
 python src/serve.py
 
+```
 ---
 
 <img width="425" height="245" alt="image" src="https://github.com/user-attachments/assets/2ba3fb9f-e604-412d-92ea-7e4674247d1c" />
